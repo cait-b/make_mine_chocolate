@@ -1,0 +1,19 @@
+/* ---- Navigation ---- */
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+/* ---- Logo ---- */
+.logo {
+	max-width: 100px;
+	border-radius: 50%;	
+}
+
+/* ---- Colors ---- */
+.selected {
+	color: red;
+}
