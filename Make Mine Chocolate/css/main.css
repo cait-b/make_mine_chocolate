@@ -1,21 +1,36 @@
+/* ---- Body ---- */
+h1 {
+	text-align: center;
+	color:#fff;
+	background-color:#c09569;
+}
+
+.video {
+	margin-left:40%;
+	}
+
 /* ---- Navigation ---- */
+nav {
+	text-align: center;
+	background-color:#ccaa87;
+}
+
 nav li {
 	display: inline-block;
 }
 
 nav a {
 	text-decoration: none;
+	font-size: 4em;
+	font-weight:700;
+	padding: 30px 20px;
+	color:#fff;
 }
 
 /* ---- Logo ---- */
 .logo {
-	max-width: 100px;
+	max-width: 200px;
 	border-radius: 50%;	
-}
-
-/* ---- Colors ---- */
-.selected {
-	color: red;
 }
 
 /* ---- Gallery ---- */
@@ -30,4 +45,36 @@ nav a {
 
 #gallery img {
 	width: 10%;
+}
+
+/* ---- Slideshow ---- 
+   ---- Under Construction ----
+   ---- Hidden until Complete ---- */
+
+.slides {
+ 	display: none;
+ }
+
+
+/* ---- Footer ---- */
+footer {
+	font-size:.75em;
+	text-align:center;
+	background-color:#ccaa87;
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+
+/* ---- Colors 
+	#ccaa87
+	#c09569
+	#87a9cc
+	#abc2db
+	#805223
+---- */
+.selected {
+	color: #805223;
 }
