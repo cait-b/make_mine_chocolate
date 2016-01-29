@@ -78,3 +78,22 @@ footer {
 .selected {
 	color: #805223;
 }
+
+/* ---- Button ---- */
+.btn {
+	box-shadow: -5px 7px 13px -5px #87aacc;
+	background-color:#abc2db;
+	border-radius:22px;
+	border:8px solid #87aacc;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:2em;
+	padding:21px 29px;
+	text-decoration:none;
+	text-shadow:-4px 4px 5px #8992cc;
+}
+.btn:hover {
+	background-color:#87aacc;
+	border:8px dotted #abc2db;
+}
