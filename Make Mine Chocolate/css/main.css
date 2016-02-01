@@ -121,6 +121,13 @@ footer {
 	border-radius: 10px;
 }
 
+.item a{
+	text-decoration: none;
+	display:block;
+	color:#805223;
+	font-size:1.25em;
+}
+
 /* ---- Clearfix ----*/
 .clearfix:after { 
    content: "."; 
