@@ -3,6 +3,7 @@ h1 {
 	text-align: center;
 	color:#fff;
 	background-color:#c09569;
+	border-radius: 10px;
 }
 
 .video {
@@ -65,12 +66,14 @@ footer {
     left: 0;
     bottom: 0;
     height: 100px;
-    width: 100%;
+    width: 100%;8h
 }
 
 /* ---- Colors 
 	#ccaa87
 	#c09569
+	#C6996A
+	#EDC9A2
 	#87a9cc
 	#abc2db
 	#805223
@@ -96,4 +99,33 @@ footer {
 .btn:hover {
 	background-color:#87aacc;
 	border:8px dotted #abc2db;
+}
+
+/* ---- Flexbox ---- */
+
+.container {
+	display: flex;
+	padding: 10px;
+	margin: 40px auto;
+	background:#C6996A;
+	border-radius: 10px;
+	height: 300px;
+	justify-content: center;
+	align-content: center;
+}
+
+.item {
+	padding: 15px;
+	margin: 10px;
+	background: #EDC9A2;
+	border-radius: 10px;
+}
+
+/* ---- Clearfix ----*/
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
 }
