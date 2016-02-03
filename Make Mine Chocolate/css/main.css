@@ -3,7 +3,10 @@ h1 {
 	text-align: center;
 	color:#fff;
 	background-color:#c09569;
-	border-radius: 10px;
+}
+
+p {
+	margin-left:10px;
 }
 
 .video {
@@ -14,6 +17,7 @@ h1 {
 nav {
 	text-align: center;
 	background-color:#ccaa87;
+	margin-top:-12px;
 }
 
 nav li {
@@ -22,7 +26,7 @@ nav li {
 
 nav a {
 	text-decoration: none;
-	font-size: 4em;
+	font-size: 3em;
 	font-weight:700;
 	padding: 30px 20px;
 	color:#fff;
@@ -30,13 +34,14 @@ nav a {
 
 /* ---- Logo ---- */
 .logo {
-	max-width: 200px;
+	max-width: 150px;
 	border-radius: 50%;	
 }
 
 /* ---- Gallery ---- */
-#gallery {
-	list-style: none;
+
+#gallery a {
+	text-decoration: none;
 }
 
 #gallery li {
@@ -65,8 +70,8 @@ footer {
 	position: absolute;
     left: 0;
     bottom: 0;
-    height: 100px;
-    width: 100%;8h
+    height: 25px;
+    width: 100%;
 }
 
 /* ---- Colors 
@@ -128,11 +133,10 @@ footer {
 	font-size:1.25em;
 }
 
-/* ---- Clearfix ----*/
-.clearfix:after { 
-   content: "."; 
-   visibility: hidden; 
-   display: block; 
-   height: 0; 
-   clear: both;
+/* ---- Media Queries ---- */
+@media (max-width: 568px) {
+	.logo {
+		display:none;
+	}
+
 }
