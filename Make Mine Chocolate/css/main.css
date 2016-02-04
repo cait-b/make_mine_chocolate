@@ -1,41 +1,60 @@
+/* ---- Navigation ---- */
+
+nav {
+    width: 100%;
+    background: #b0a096;
+    border-bottom: 5px solid #846048;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    flex-grow: 1;
+    text-align: center;
+}
+
+nav ul li a {
+	text-decoration: none;
+    display: block;
+    color: #fff;
+    font-weight:700;
+    font-size:2em;
+}
+
+
+/* ---- Logo ---- */
+.logo {
+	max-width: 150px;
+	border-radius: 50%;	
+}
+
 /* ---- Body ---- */
-h1 {
-	text-align: center;
-	color:#fff;
-	background-color:#c09569;
+body {
+	background-color: #f0efee;
 }
 
 p {
 	margin-left:10px;
 }
 
+h1 {
+	color:#9f8375;
+	text-align:center;
+}
+
 .video {
 	margin-left:40%;
 	}
 
-/* ---- Navigation ---- */
-nav {
-	text-align: center;
-	background-color:#ccaa87;
-	margin-top:-12px;
-}
-
-nav li {
-	display: inline-block;
-}
-
-nav a {
-	text-decoration: none;
-	font-size: 3em;
-	font-weight:700;
-	padding: 30px 20px;
-	color:#fff;
-}
-
-/* ---- Logo ---- */
-.logo {
-	max-width: 150px;
-	border-radius: 50%;	
+.selected {
+	color: #846048;
 }
 
 /* ---- Gallery ---- */
@@ -53,41 +72,32 @@ nav a {
 	width: 10%;
 }
 
-/* ---- Slideshow ---- 
-   ---- Under Construction ----
-   ---- Hidden until Complete ---- */
+/* ---- Resources Links ---- */
 
-.slides {
- 	display: none;
- }
-
-
-/* ---- Footer ---- */
-footer {
-	font-size:.75em;
-	text-align:center;
-	background-color:#ccaa87;
-	position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 25px;
-    width: 100%;
+.container {
+	display: flex;
+	padding: 10px;
+	margin: 40px auto;
+	border-radius: 10px;
+	height: 300px;
+	justify-content: center;
+	align-content: center;
 }
 
-/* ---- Colors 
-	#ccaa87
-	#c09569
-	#C6996A
-	#EDC9A2
-	#87a9cc
-	#abc2db
-	#805223
----- */
-.selected {
-	color: #805223;
+.item {
+	padding: 15px;
+	margin: 10px;
+	border-radius: 10px;
 }
 
-/* ---- Button ---- */
+.item a{
+	text-decoration: none;
+	display:block;
+	font-size:1.25em;
+}
+
+
+/* ---- Button
 .btn {
 	box-shadow: -5px 7px 13px -5px #87aacc;
 	background-color:#abc2db;
@@ -105,38 +115,17 @@ footer {
 	background-color:#87aacc;
 	border:8px dotted #abc2db;
 }
+---- */
 
-/* ---- Flexbox ---- */
 
-.container {
-	display: flex;
-	padding: 10px;
-	margin: 40px auto;
-	background:#C6996A;
-	border-radius: 10px;
-	height: 300px;
-	justify-content: center;
-	align-content: center;
-}
-
-.item {
-	padding: 15px;
-	margin: 10px;
-	background: #EDC9A2;
-	border-radius: 10px;
-}
-
-.item a{
-	text-decoration: none;
-	display:block;
-	color:#805223;
-	font-size:1.25em;
-}
-
-/* ---- Media Queries ---- */
-@media (max-width: 568px) {
-	.logo {
-		display:none;
-	}
-
+/* ---- Footer ---- */
+footer {
+	position:absolute;
+	font-size:.75em;
+	text-align:center;
+	background-color:#514f4e;
+	color: #b0afab;
+	font-weight:700;
+	width: 100%;
+	height:40px;
 }

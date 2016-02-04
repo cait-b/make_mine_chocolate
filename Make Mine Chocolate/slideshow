@@ -1,0 +1,18 @@
+	<div id="slideshow">
+		<ul class="slides">
+			<li class="slide">
+				<a href="http://www.jardichocolates.com/products/easter-bunnies">
+					<img src="img/chocolatebunnies.jpg" alt="Two Chocolate Bunnies">
+				</a>
+			</li>
+			<li class="slide">
+				<a href="http://www.columbusrabbit.org/">
+					<img src="img/columbus.jpg" alt="Columbus House Rabbit Society">
+				</a>
+			</li>
+			<li class="slide">
+				<a href="http://rabbit.org/">
+					<img src="img/houserabbitbanner.png" alt="House Rabbit Society">
+				</a>
+			</li>
+	</div>
