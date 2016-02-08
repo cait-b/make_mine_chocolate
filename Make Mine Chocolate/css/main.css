@@ -25,6 +25,7 @@ nav ul li a {
     color: #fff;
     font-weight:700;
     font-size:2em;
+    text-shadow: 2px 2px 2px #61402d;
 }
 
 
@@ -32,6 +33,7 @@ nav ul li a {
 .logo {
 	max-width: 150px;
 	border-radius: 50%;	
+	box-shadow: 2px 2px 2px #61402d;
 }
 
 /* ---- Body ---- */
@@ -52,6 +54,7 @@ p {
 
 h1 {
 	color:#9f8375;
+	margin-left: 10px;
 }
 
 .video {
