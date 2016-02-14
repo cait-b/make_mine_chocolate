@@ -14,9 +14,8 @@ var info = ["The currently recommended MINIMUM accommodation size is 6 x 2 x 2 f
 	"Rabbits love tunnels – they are designed to live in burrows in the wild, so a tunnel can make a rabbit fee safe and secure. Plus they are great fun to play with too! Tunnels can be used for both indoor and outside play; use plastic tunnels for the outside and cardboard tunnels inside, as these can make a great chew toy too.", 
 	"A staggering 85% of female rabbits can develop uterine cancer by the age of 4 if left un-neutered, so neutering is a must. And don’t forget the males need neutering too – testicular cancer is a major risk of un-neutered males too.", "Also called Rabbit Haemorrhagic Disease (RHD) and Rabbit Calicivirus Disease (RCD). Firt pinpointed in China in 1983 and in 1992 in the UK, this is a dreadful disease, killing rapidly, often without any external symptoms before death occurs, which is often as little as 12 to 36 hours after infection. Transmission is via the eyes, nose or mouth, and secretions (urine, mucus etc) can transmit the virus in addition to biting insects such as fleas or mosquitoes. As with Myxomatosis, a vaccine is available (recently combined with Myxomatosis for a single annual dual protection vaccine), which all domestic rabbits should receive. Again,prevention against this dreadful disease is the only cure.", "If you’ve indoor rabbits then beware! Rabbits will seek out and chew through any wires they can find…telephone, lamp, television, computer! Apart from the plastic being bad for their digestion, their wire eating habits means they run a great risk of being electrocuted, which can – of course – be fatal. All wires should be encased in non-chewable trunking and kept well away from inquisitive mouths.", 
 	"If you’re interested in rabbit anatomy, then check out MediRabbit – there are some excellent Xrays of various parts of the rabbit for you to examine.", "Rabbit medicine, although still way behind that of cats and dogs, has improved significantly in recent years, and will only continue to improve. This has had significant impact on the longevity of our domestic rabbits, with the lifespan now reaching 10 years or more in some breeds. This is wonderful for the rabbit and it’s human family, but endorses the need for a greater consideration of the long term commitment at the point of acquisition.", "A disease transmittable between species – i.e cat to dog, horse to human. Fortunately zoonoses between rabbits and humans are rare, and mainly include parasites (fleas, mites), and fungal infections (ringworm). Some bacterial infections such as Pasteurella and Salmonella  are transmittable, but it is worth remembering that although a rabbit disease may not be a zoonoses, us humans can easily transmit rabbit diseases (such as EC) form one rabbit to another. Cleanliness and good housekeeping is essential."];
+
 var btn;
-
-
 for(var i = 0; i < letters.length; i++){
 	btn = '<button class="btn" ';
 	btn += 'id="'
@@ -26,3 +25,7 @@ for(var i = 0; i < letters.length; i++){
 	btn += '</button>'
 	document.write(btn);
 }
+
+$(document).ready(function(){
+	$(".btn").hide();
+});

@@ -49,12 +49,12 @@ body {
 }
 
 p {
-	margin-left:10px;
+	margin-left:50px;
 }
 
 h1 {
 	color:#9f8375;
-	margin-left: 10px;
+	margin-left:50px;
 }
 
 .video {
@@ -63,6 +63,10 @@ h1 {
 
 .selected {
 	color: #846048;
+}
+
+.twitter-timeline {
+	margin-left: 50px;
 }
 
 /* ---- Gallery ---- */
