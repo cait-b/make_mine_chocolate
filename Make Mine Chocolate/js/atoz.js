@@ -26,88 +26,88 @@ for (var i = 0; i < letters.length; i++) {
   btn += '</button>'
   document.write(btn);
 }
-
 var clicked;
 $(document).ready(function() {
   $('button').click(function() {
     var clicked = $(this).attr('id');
+    $( ".btninfo" ).remove();
     switch (clicked) {
-	  case 'A':
+    case 'A':
         document.write('<div class="btninfo"><h3>' + heading[0] + '</h3>' +'<p>' + info[0] + '</p></div>')
         break;
-	  case 'B':
+    case 'B':
         document.write('<div class="btninfo"><h3>' + heading[1] + '</h3>' +'<p>' + info[1] + '</p></div>')
         break;
-	  case 'C':
+    case 'C':
         document.write('<div class="btninfo"><h3>' + heading[2] + '</h3>' +'<p>' + info[2] + '</p></div>')
         break;
-	  case 'D':
+    case 'D':
         document.write('<div class="btninfo"><h3>' + heading[3] + '</h3>' +'<p>' + info[3] + '</p></div>')
         break;
-	  case 'E':
+    case 'E':
         document.write('<div class="btninfo"><h3>' + heading[4] + '</h3>' +'<p>' + info[4] + '</p></div>')
         break;
-	  case 'F':
+    case 'F':
         document.write('<div class="btninfo"><h3>' + heading[5] + '</h3>' +'<p>' + info[5] + '</p></div>')
         break;
-	  case 'G':
+    case 'G':
         document.write('<div class="btninfo"><h3>' + heading[6] + '</h3>' +'<p>' + info[6] + '</p></div>')
         break;
-	  case 'H':
+    case 'H':
         document.write('<div class="btninfo"><h3>' + heading[7] + '</h3>' +'<p>' + info[7] + '</p></div>')
         break;
-	  case 'I':
+    case 'I':
         document.write('<div class="btninfo"><h3>' + heading[8] + '</h3>' +'<p>' + info[8] + '</p></div>')
         break;
-	  case 'J':
+    case 'J':
         document.write('<div class="btninfo"><h3>' + heading[9] + '</h3>' +'<p>' + info[9] + '</p></div>')
         break;
-	  case 'K':
+    case 'K':
         document.write('<div class="btninfo"><h3>' + heading[10] + '</h3>' +'<p>' + info[10] + '</p></div>')
         break;
-	  case 'L':
+    case 'L':
         document.write('<div class="btninfo"><h3>' + heading[11] + '</h3>' +'<p>' + info[11] + '</p></div>')
         break;
-	  case 'M':
+    case 'M':
         document.write('<div class="btninfo"><h3>' + heading[12] + '</h3>' +'<p>' + info[12] + '</p></div>')
         break;
-	  case 'N':
+    case 'N':
         document.write('<div class="btninfo"><h3>' + heading[13] + '</h3>' +'<p>' + info[13] + '</p></div>')
         break;
-	  case 'O':
+    case 'O':
         document.write('<div class="btninfo"><h3>' + heading[14] + '</h3>' +'<p>' + info[14] + '</p></div>')
         break;
-	  case 'P':
+    case 'P':
         document.write('<div class="btninfo"><h3>' + heading[15] + '</h3>' +'<p>' + info[15] + '</p></div>')
         break;
-	  case 'Q':
+    case 'Q':
         document.write('<div class="btninfo"><h3>' + heading[16] + '</h3>' +'<p>' + info[16] + '</p></div>')
         break;
-	  case 'R':
+    case 'R':
         document.write('<div class="btninfo"><h3>' + heading[17] + '</h3>' +'<p>' + info[17] + '</p></div>')
         break;
-	  case 'S':
+    case 'S':
         document.write('<div class="btninfo"><h3>' + heading[18] + '</h3>' +'<p>' + info[18] + '</p></div>')
         break;
-	  case 'T':
+    case 'T':
         document.write('<div class="btninfo"><h3>' + heading[19] + '</h3>' +'<p>' + info[19] + '</p></div>')
         break;
-	  case 'U':
+    case 'U':
         document.write('<div class="btninfo"><h3>' + heading[20] + '</h3>' +'<p>' + info[20] + '</p></div>')
         break;
-	  case 'V':
+    case 'V':
         document.write('<div class="btninfo"><h3>' + heading[21] + '</h3>' +'<p>' + info[21] + '</p></div>')
         break;
-	  case 'W':
+    case 'W':
         document.write('<div class="btninfo"><h3>' + heading[22] + '</h3>' +'<p>' + info[22] + '</p></div>')
         break;
-	  case 'X':
+    case 'X':
         document.write('<div class="btninfo"><h3>' + heading[23] + '</h3>' +'<p>' + info[23] + '</p></div>')
         break;
-	  case 'Y':
+    case 'Y':
         document.write('<div class="btninfo"><h3>' + heading[24] + '</h3>' +'<p>' + info[24] + '</p></div>')
         break;
-	  case 'Z':
+    case 'Z':
         document.write('<div class="btninfo"><h3>' + heading[25] + '</h3>' +'<p>' + info[25] + '</p></div>')
         break;
       default:
