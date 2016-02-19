@@ -69,6 +69,10 @@ h1 {
 	margin-left: 50px;
 }
 
+.fb-page {
+    margin-left: 50px;
+}
+
 /* ---- Gallery ---- */
 
 #gallery a {
@@ -94,6 +98,8 @@ h1 {
 
 .item {
 	padding: 15px;
+    text-align: left;
+    margin: none;
 }
 
 .item a{
@@ -103,10 +109,18 @@ h1 {
 	color:#9f8375;
 }
 
+.item h1 {
+    margin-left: 0px;
+}
+
 .item a:visited {
 	color:#61402d;
 }
 
+.item li {
+    font-size:.75em;
+    margin-left:.5em;
+}
 
 /* ---- A to Z ---- */
 .buttons {
